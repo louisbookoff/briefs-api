@@ -7,7 +7,6 @@ curl "http://localhost:4741/briefs" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "brief": {
-      "user_id": "'"${USER_ID}"'",
       "title": "'"${TITLE}"'",
       "subject": "'"${SUBJECT}"'",
       "body_text": "'"${BODY_TEXT}"'",
